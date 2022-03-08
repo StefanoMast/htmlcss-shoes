@@ -14,12 +14,13 @@ ul {
     list-style: none;
 }
 
-.abs-center {
+/*.abs-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    color: yellow;
+} */
 
 /* MENU */
 .menu {
@@ -42,9 +43,7 @@ ul {
     /* width: calc(100% - 20px); */
     height: calc(100vh - 20px);
     margin: 10px;
-    background-color: aquamarine;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
 }
 
@@ -55,19 +54,35 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.4);
 }
 
-#shoe1 {
-    background-image: url(../img/01.png);
+img {
+    background: no-repeat;
+    margin: 70px;
 }
 
-#shoe2 {
-    background-image: url(../img/02.png);
+.shoe {
+    width: auto;
+    height: 300px;
 }
 
-#shoe3 {
-    background-image: url(../img/03.jpg);
+.description {
+    vertical-align: 
+}
+
+.abs-center-1 {
+    color: green;
+}
+.bs1 {
+    background-color: red;
+}
+
+.bs2 {
+    background-color: green;
+}
+
+.bs3 {
+    background-color: yellow;
 }
 
 .city-container h2 {
@@ -77,5 +92,6 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%); */
     font-size: 2em;
-    color: white;
+    color: yellow;
 } 
+
