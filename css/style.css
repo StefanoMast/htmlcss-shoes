@@ -52,6 +52,10 @@ nav ul li {
     padding: 10px;
 }
 
+img {
+    width: 100%;
+}
+
 
 .box1{
     background-color: red;
